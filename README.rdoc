@@ -1,6 +1,7 @@
 == README
 
 Jobtinder is a great application!
+Hi Luna Thanks for opening of door.
 
 This README would normally document whatever steps are necessary to get the
 application up and running.
