@@ -1,0 +1,34 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @employer.name %>
+</p>
+
+<p>
+  <strong>City:</strong>
+  <%= @employer.city %>
+</p>
+
+<p>
+  <strong>Jobs available:</strong>
+  <%= @employer.jobs_available %>
+</p>
+
+<p>
+  <strong>Qualifications:</strong>
+  <%= @employer.qualifications %>
+</p>
+
+<p>
+  <strong>Company description:</strong>
+  <%= @employer.company_description %>
+</p>
+
+<p>
+  <strong>How to contact:</strong>
+  <%= @employer.how_to_contact %>
+</p>
+
+<%= link_to 'Edit', edit_employer_path(@employer) %> |
+<%= link_to 'Back', employers_path %>
